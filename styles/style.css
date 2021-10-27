@@ -22,13 +22,20 @@ p{
     font-family: 'Urbanist', sans-serif;
 }
 
+header{
+    background-color: #97202C;
+}
+
+main{
+    margin-top: 200px;
+}
+
 nav ul{
     display: flex;
     width: 100 hv;
     justify-content: center;
     text-decoration: none;
     list-style-type:none;
-    background-color:#97202C;
     margin-bottom: 0px;
     padding-right: 50px;
 }
@@ -43,10 +50,38 @@ li{
     color: #FFF;
     font-weight: 700;
 }
-a{
+
+.nav-link{
+    color: #FFF;
+}
+
+ul li a{
     color: #FFF;
     text-decoration: none;
 
+}
+
+ul li a:hover{
+    color: #FFF;
+    text-decoration: underline;
+
+}
+
+.navbar{
+background-color: #97202C;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-toggler{
+    border: 1px solid #fff !important;
+}
+
+.navbar-toggler-icon{
+    width: 2.5em !important;
+    height: 2.5em !important;
 }
 
 .pinkHighlight{
@@ -56,6 +91,11 @@ a{
 .bannerimg{
     display: flex;
     width: 100%;
+}
+
+
+.carousel{
+    margin-top: 110px;
 }
 
 /*INDEX - HOME PAGE*/
@@ -494,11 +534,10 @@ footer{
 
     }
 
-    .bannerimg{
-        display: flex;
-        width: 100%;
-        height: 100vh;
+    .carousel{
+        margin-top: 10px;
     }
+
 
     /*INDEX - HOME PAGE*/
 
