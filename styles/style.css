@@ -113,7 +113,6 @@ background-color: #97202C;
     width:100%;
     text-align: center;
     padding: 5%;
-
     animation-name: gradualShowUp ;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -137,10 +136,55 @@ background-color: #97202C;
     text-align: start;
 }
 
+.newsletter{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    background-color: #97202C;
+    color: #FFF;
+    margin: 0;
+}
+
+.newsletter p{
+    justify-self: center;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.ctaButton{
+    background-color: #97202C;
+    color: #FFF;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+}
+.ctaButton a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ctaButton:hover{
+    background-color: #d42e3f;
+    color: #FFF;
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+}
+.ctaButton a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
 /*ABOUT ME SECTION*/
 
 .about_me{
     margin-top: 10%;
+    margin-bottom: 5.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,6 +283,7 @@ section .hr hr{
 
 .learn_table{
     margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -274,6 +319,7 @@ td{
 
 .socials{
     margin-top: 5%;
+    margin-bottom: 7%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -457,6 +503,7 @@ td{
     font-family: 'Urbanist', sans-serif;
     font-weight: 700;
     border-radius: 5px;
+    border: 1px solid #97202C;
     margin: 10px 10px;
     padding: 10px 20px;
 }
@@ -468,12 +515,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 190px;
     height: 60px;
     width:100%;
     font-family: 'Urbanist', sans-serif;
     font-size: 1rem;
     flex-shrink: 0;
+    margin: 0;
 }
 
 
@@ -851,7 +898,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 190px;
         height: 60px;
         width:100%;
         font-family: 'Urbanist', sans-serif;
