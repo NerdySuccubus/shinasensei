@@ -153,6 +153,12 @@ background-color: #97202C;
     margin: auto;
 }
 
+.newsletter img{
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
 .ctaButton{
     background-color: #97202C;
     color: #FFF;
